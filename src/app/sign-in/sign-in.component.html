@@ -1,0 +1,82 @@
+<div class="w-screen h-screen">
+  <header class="px-20 py-5">
+    <div class="grid grid-cols-2">
+      <div class="flex space-x-3 items-center">
+        <div class="bg-[#6C63FF] p-5 rounded-lg"></div>
+        <span class="text-2xl font-semibold uppercase">Nigromotics</span>
+      </div>
+      <div class="flex space-x-3 justify-end items-center">
+        <div class="flex">
+          <div class="object-center">
+            <img
+              src="../assets/Flag.png"
+              class="def-country-img rounded-full h-7 w-7"
+              alt="def_cy_img"
+            />
+          </div>
+          <div class="flex">
+            <select name="" id="" class="focus:outline-none text-[#6C63FF]">
+              <option value="1">Eng</option>
+              <option value="1">Fch</option>
+            </select>
+          </div>
+        </div>
+        <a
+          routerLink="/"
+          class="rounded-full border-[#6C63FF] border-2 px-3 py-1 text-[#6C63FF]"
+        >
+          Sign Up
+        </a>
+      </div>
+    </div>
+  </header>
+  <main class="grid grid-cols-2 p-20">
+    <div class="">
+      <div>
+        <h1 class="text-3xl font-bold text-[#6C63FF]">Welcome Back Joko</h1>
+        <p class="text-gray-300">Let's get you back on track</p>
+      </div>
+      <div class="mt-10">
+        <div class="inputs">
+          <div class="flex-col w-3/5 space-y-4">
+            <!-- Name -->
+            <div class="flex flex-col">
+              <input
+                type="text"
+                id="name"
+                class="p-3 border-[#6b63ff5b] border-2 rounded-lg focus:outline-[#6C63FF]"
+                placeholder="Email | Username"
+              />
+            </div>
+            <!-- Mail -->
+            <div class="flex flex-col">
+              <input
+                type="password"
+                id="email"
+                class="p-3 border-[#6b63ff5b] border-2 rounded-lg focus:outline-[#6C63FF]"
+                placeholder="Password"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col">
+          <a
+            routerLink="/dashboard"
+            class="bg-green-500 w-3/5 text-center shadow-lg hover:bg-green-600 transition-all duration-500 ease-in-out mt-5 shadow-green-400 px-10 py-3 rounded-lg text-2xl font-medium text-white"
+          >
+            Login
+          </a>
+          <small
+            >Don't have an account?
+            <a href="#" routerLink="/" class="text-[#6C63FF] underline"
+              >Sign Up</a
+            ></small
+          >
+        </div>
+      </div>
+    </div>
+
+    <!-- Second Container -->
+    <div><img src="../assets/Group 391.png" alt="" /></div>
+  </main>
+</div>

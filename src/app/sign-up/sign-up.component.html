@@ -1,0 +1,122 @@
+<header class="px-20 py-5">
+  <div class="grid grid-cols-2">
+    <div class="flex space-x-3 items-center">
+      <div class="bg-[#6C63FF] p-5 rounded-lg"></div>
+      <span class="text-2xl font-semibold uppercase">Nigromotics</span>
+    </div>
+    <div class="flex space-x-3 justify-end items-center">
+      <div class="flex">
+        <div class="object-center">
+          <img
+            src="../assets/Flag.png"
+            class="def-country-img rounded-full h-7 w-7"
+            alt="def_cy_img"
+          />
+        </div>
+        <div class="flex">
+          <select name="" id="" class="focus:outline-none text-[#6C63FF]">
+            <option value="1">Eng</option>
+            <option value="1">Fch</option>
+          </select>
+        </div>
+      </div>
+      <a
+        class="rounded-full border-[#6C63FF] border-2 px-3 py-1 text-[#6C63FF]" routerLink="/sign-in"
+      >
+        Login
+    </a>
+    </div>
+  </div>
+</header>
+<main class="grid grid-cols-2 p-20">
+  <div class="">
+    <div>
+      <h1 class="text-3xl font-bold text-[#6C63FF]">Welcome to Nigromotics</h1>
+      <p class="text-gray-300">
+        you can view your content in your desired laguage <br />Simply sign up
+        and get started
+      </p>
+    </div>
+    <div class="mt-10">
+      <div class="inputs grid gap-4 grid-cols-2">
+        <div class="flex-col space-y-4">
+          <!-- Name -->
+          <div class="flex flex-col">
+            <input
+              type="text"
+              id="name"
+              class="p-3 border-[#6b63ff5b] border-2 rounded-lg focus:outline-[#6C63FF]"
+              placeholder="What should we call you"
+            />
+          </div>
+          <!-- Mail -->
+          <div class="flex flex-col">
+            <input
+              type="tel"
+              id="email"
+              class="p-3 border-[#6b63ff5b] border-2 rounded-lg focus:outline-[#6C63FF]"
+              placeholder="Enter your phone number"
+            />
+          </div>
+
+          <!-- Language -->
+          <div class="flex flex-col">
+            <label for="name" class="text-gray-300"
+              >Select your preffered Language</label
+            >
+            <select
+              name="language"
+              id="languages"
+              class="p-3 bg-[#6b63ff43] focus:outline-[#6C63FF]"
+            >
+              <option value="1">English</option>
+              <option value="2">French</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Second Registrant -->
+        <div class="flex-col space-y-4">
+          <div class="flex flex-col">
+            <input
+              type="email"
+              id="PhoneNumber"
+              class="p-3 border-[#6b63ff5b] border-2 rounded-lg focus:outline-[#6C63FF]"
+              placeholder="Enter your email"
+            />
+          </div>
+          <div class="flex flex-col">
+            <input
+              type="email"
+              id="PhoneNumber"
+              class="p-3 border-[#6b63ff5b] border-2 rounded-lg focus:outline-[#6C63FF]"
+              placeholder="Enter your email"
+            />
+          </div>
+          <div class="flex flex-col">
+            <input
+              type="text"
+              id="PhoneNumber"
+              class="p-3 border-[#6b63ff5b] border-2 rounded-lg focus:outline-[#6C63FF]"
+              placeholder="Where are you Located"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-col">
+        <button
+          class="bg-green-500 w-3/5 shadow-lg hover:bg-green-600 transition-all duration-500 ease-in-out mt-5 shadow-green-400 px-10 py-3 rounded-lg text-2xl font-medium text-white"
+        >
+          Sign Up
+        </button>
+        <small
+          >Already have an account?
+          <a href="#" routerLink="/sign-in" class="text-[#6C63FF] underline">Sign In</a></small
+        >
+      </div>
+    </div>
+  </div>
+
+  <!-- Second Container -->
+  <div><img src="../assets/Group 391.png" alt="" /></div>
+</main>
